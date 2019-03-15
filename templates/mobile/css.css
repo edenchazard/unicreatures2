@@ -1,0 +1,79 @@
+*{
+	font-family: Sylfaen;
+	padding: 0;
+	margin: 0;
+}
+body{
+	background-color:#ABE4FE;
+	width:320px;
+	font-size:13px;
+	color:#000;
+}
+#content{
+	padding:0 3px 0 3px;
+}
+
+textarea{
+	font-size:13px;
+	width:100%;
+}
+.b{
+	font-weight:bold;
+}
+.t-left{
+	text-align:left;
+}
+
+.actions{
+	/*background-color:#83afc3;*/
+	margin:0;
+	list-style-type:none;
+}
+.actions li{
+	padding:0 0 0 10px;
+}
+.actions a{
+	color:#000;
+	font-weight:bold;
+}
+.view h2{
+	font-size:1em;
+	text-align:left;
+	font-weight:normal;
+	text-decoration:underline;
+	margin: 8px 0 0 0;
+}
+.italic{
+	font-style:italic;
+}
+.center{
+	text-align:center;
+}
+#menu{
+	background-color:#83afc3;
+	padding: 0 5px 0 5px;
+	width:100%;
+}
+#menu *{
+	vertical-align:middle;
+	display:inline-block;
+}
+#title{
+	color:#2f3f46;
+	font-size:25px;
+}
+
+#menu-button{
+	text-decoration:none;
+	background-image:url('menu.png');
+	width:57px;
+	height:28px;
+}
+#alerts{
+	color:red;
+	font-weight:bold;
+}
+#missions{
+	color:blue;
+	font-weight:bold;
+}

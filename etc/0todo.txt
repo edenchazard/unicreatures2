@@ -1,0 +1,5 @@
+todo:
+
+make sure to validate modify_family.php family
+
+make a batch update function (primarily for training, update skills)

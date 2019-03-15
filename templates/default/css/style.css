@@ -1,0 +1,231 @@
+
+a img{border:0;}
+
+
+* {margin:0px;padding:0px;}
+.clear{clear:both;}
+
+/*#header {
+	background-image:url(http://www.unicreatures.com/template/header.jpg);
+	width:979px;
+	height:232px;
+	display:block;
+}*/
+
+#right {
+	float:right;
+	width:580px;
+}
+/***************** Content ***********************/
+#content {
+
+}
+#content h3 {
+	background-image:url(http://www.unicreatures.com/template/title_unicreatures.png);
+	background-repeat:no-repeat;
+	width:520px;
+	height:33px;
+	text-indent:700px;
+	overflow:hidden;
+	border-bottom: 1px dashed #2e2304;
+	margin: 10px 0px 15px 0px;
+	padding: 0px 0px 10px 0px;
+}
+/*
+.content p {
+	font-family: Sylfaen, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-style: italic;
+	color: #003a65;
+	padding: 10px 0px 0px 6px;
+	font-weight:900;
+}
+*/
+.content a {
+	color:#2e260f;
+}
+.content a:hover {
+	color:#cf0002;
+}
+
+/***************** Menu ***********************/
+#menu {
+	background-image:url(http://www.unicreatures.com/template/menu.gif);
+	width:261px;
+	height:368px;
+	margin-left:93px;
+}
+#menu ul {
+	padding: 10px 0px 0px 0px;
+	width:220px;
+	margin-left:15px;
+}
+#menu li {
+	background-image: url(http://www.unicreatures.com/template/arrow.gif);
+	background-repeat: no-repeat;
+	background-position: right center;
+	border-bottom: 1px dotted #2e2304;
+	list-style-type: none;
+	padding: 4px 30px 4px 0px;
+	text-align:right;
+}
+#menu a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: italic;
+	font-weight: 900;
+	color: #2e260f;
+	text-decoration: none;
+	font-size: 12px;
+	
+}
+#menu a:hover {
+	color:#c40000;
+}
+.lastchild{
+	border-bottom: none !important;
+}
+#menubottom {
+	background-image:url(http://www.unicreatures.com/template/menubottom2.jpg);
+	background-repeat:no-repeat;
+	width:261px;
+	height:76px;
+	margin-left:93px;
+	margin-bottom:8px;
+}
+#menubottom ul {
+	padding: 10px 0px 0px 0px;
+	width:240px;
+	margin-left:15px;
+}
+#menubottom li {
+	float:left;
+	display:inline;
+	width:77px;
+	text-align:center;
+}
+#menubottom a {
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration:none;
+	font-weight: bolder;
+	font-size:10px;
+	color: #6e6b53;
+	text-transform: uppercase;
+}
+#menubottom a:hover {
+	color:#c40000;
+}
+/***************** Footer ***********************/
+#footer {
+	background-color:#8bcaef;
+	background-image:url(http://www.unicreatures.com/template/sprite.gif);
+	background-position: -1001px 0;
+	height:74px;
+	width:979px;
+}
+#footerend {
+	background-image:url(http://www.unicreatures.com/template/sprite.gif);
+	background-repeat: no-repeat;
+	background-position: -1991px 0;
+	width:979px;
+	height:9px;
+	display:block;
+}
+#copyright {
+	background-image:url(http://www.unicreatures.com/template/copyright.jpg);
+	background-repeat:no-repeat;
+	width:220px;
+	height:43px;
+	display:inline;
+	margin-left:103px;
+	float:left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: 800;
+	color: #463d16;
+	padding: 30px 20px 0px 20px;
+	text-align:center;
+}
+#copyright a {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #463d16;
+}
+#bottom_ad {
+	float:left;
+	display:inline;
+	margin: 10px 0px 20px 40px;
+}
+
+//if it looks terrible because the tabs died, horizon did it XD
+
+#tutorial-list{list-style-type:none; text-align:center;width:95%;}
+#tutorial-list li{margin-bottom: 1em;border-bottom:1px #5ba0d6 solid;padding-bottom:5px; }
+
+td.creature{width:100px; text-align:center; vertical-align:bottom;}
+td.creature img{max-width:110px; max-height:110px; border:0;}
+.notice_highlight{border: 2px solid black;}
+
+.simplenotice{
+	color: #000000;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-align:center;
+	font-style: normal;
+	padding: .5em;
+}
+/**************** Mass Move ******************/
+#massmove-wrap{
+	width: 530px;
+	overflow: hidden;
+}
+#selectable-creatures .ui-selecting { background: #FECA40; }
+#selectable-creatures .ui-selected { background: #5ba0d6; color: white; }
+#selectable-creatures { list-style-type: none; margin: 0; padding: 0; }
+#selectable-creatures li { margin: 3px; padding: 1px; float: left; width: 115px; height: 140px; text-align: center; }
+#selectable-creatures img{ max-width: 110px; }lectable-creatures li { margin: 3px; padding: 1px; float: left; width: 160px; height: 170px; text-align: center; }
+
+
+.smallicontable{width:100%; text-align:center;}
+.smallicontable a{border:0; text-decoration:none;}
+.smallicontable a img{border:0;}
+
+.smallicon{max-height:50px; max-width:50px;}
+.reallysmallicon{max-height:32px; max-width:32px;}
+
+.npctable{text-align:center; vertical-align:top;}
+.npctable td{vertical-align:top;}
+.npctable td.desc{padding-left: .5em;}
+.npctable a{border:0; text-decoration:none;}
+.npcname{font-size: 16px; font-weight: bold; text-align:center;}
+
+table.statistics{width: 98%; margin:0; border-spacing:0; border: 2px solid black; text-align:center;}
+table.statistics td{border: 1px solid black; padding: .5em;}
+table.statistics th{border-bottom: 2px solid black; padding: .3em;}
+table.statistics caption{font-size: 1.4em; font-weight:bold;}
+
+table.gentable {border-spacing:0;}
+table.gentable th{border-bottom: 2px solid black; padding: 0 .4em 15px .4em;}
+table.gentable td{padding: .3em; margin:0;}
+table.gentable caption{font-size: 1.4em; font-weight:bold; white-space:nowrap;}
+table.icodisplay{text-align:center;}
+.icodisplay{text-align:center;}
+.icodisplay a img{border:0;}
+
+.stories-header{font-size: 1.2em; font-weight:bold; text-align:center; margin:0; padding: .4em 0;}
+
+.story{
+	color: #000000;
+	text-align:center;
+	padding: .5em;
+}
+
+.clicked{color:#448866;}
+.unclicked{color:#7428c3; text-decoration:underline;}
+
+.flowing {border-spacing:0 .5em;}
+.flowing td{padding: .5em; margin:0; vertical-align: center; text-align:center;}
+.flowing th .name{font-size: 1.2em; font-weight:bold;}
+.components{vertical-align:bottom;}
+.flowing th{text-align:center;}
+
+table.medal_display{border-spacing:0;}
+.medal_display *{margin:0; padding:0;}

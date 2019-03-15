@@ -1,0 +1,9 @@
+
+Friday, October 11, 2013 @ 12:47:48 in C:/wamp/www/evolve.php on line 61: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' nickname = '' 
+		WHERE ID = 1660
+		LIMIT 1' at line 2
+	SQL: 
+		UPDATE creatures_owned
+		SET creatureID = , nickname = '' 
+		WHERE ID = 1660
+		LIMIT 1

@@ -1,0 +1,20 @@
+$profile_user = new user();
+$search = null;
+//by user id
+if(isset($_GET['id'])){
+	if(safe_digit($_GET['id'])){
+		$search = '#' . $_GET['id'];
+	}
+}
+
+//by username
+if(isset($_GET['username'])){
+	$search = $_GET['username'];
+}
+
+if(!$profile_user->bind_data($search)){
+	//default to own
+	if(is_logged_in()){
+		$profile_user = $user;
+	}
+}

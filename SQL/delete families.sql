@@ -1,0 +1,2 @@
+
+DELETE FROM `explore_creatures` WHERE family_name IN('Aurora', 'sly', 'horizon', 'mythera', 'blossom', 'eclipse', 'cyanne', 'freyr', 'dualis', 'diani', 'alban', 'khet', 'aurum', 'unity', 'fortuna', 'nivier', 'neon', 'sabu', 'lotus', 'rasun', 'delilah', 'felic', 'lamiel', 'leaf', 'sekmet', 'nifer', 'rex', 'maglia', 'nimi', 'ori', 'arbor', 'tenny', 'heifer', 'nautus', 'halcyon', 'vulkan', 'terran', 'inferno', 'froudo', 'wintergreen', 'mend', 'howl', 'weyekin', 'arishia', 'darini')
